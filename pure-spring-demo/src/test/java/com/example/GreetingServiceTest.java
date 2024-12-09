@@ -8,10 +8,10 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import com.example.component.service.GreetingService;
-import com.example.config.WebConfig;
+import com.example.config.WebMvcConfig;
 
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = WebConfig.class)
+@ContextConfiguration(classes = WebMvcConfig.class)
 class GreetingServiceTest {
 
   @Autowired
